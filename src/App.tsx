@@ -11,7 +11,6 @@ import BackendFactory from "./services/BackendFactory"; // Import your BackendFa
 const App: React.FC = () => {
 	const userAuth = UserAuthFactory();
 	const backend = BackendFactory(userAuth); // Use BackendFactory to get the appropriate backend instance
-
 	return (
 		<Router>
 			<Routes>
